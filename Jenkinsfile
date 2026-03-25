@@ -3,8 +3,8 @@ pipeline {
     
     environment {
         // This matches the ID you created in Jenkins Credentials
-        DOCKER_HUB_USER = 'your-docker-username'
-        IMAGE_NAME = 'jenkins-docker-project'
+        DOCKER_HUB_USER = 'nihadocker'
+        IMAGE_NAME = 'niharikabl995/new_image'
     }
 
     stages {
